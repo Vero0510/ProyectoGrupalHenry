@@ -15,7 +15,7 @@
 -	Análisis preliminar de calidad de datos
 
 
-##Y CREAR
+## Y CREAR
 
 **Entregables**        
 -	Documentación

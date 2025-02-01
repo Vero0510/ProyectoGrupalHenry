@@ -54,7 +54,7 @@ El flujo de trabajo implicará:
 15. Desarrollo del tablero de mando.
 
 ## Cronograma Estimado
-- **1 semana**: Documentación y inicio del proyecto.
+- **1 semana**: Documentación e inicio del proyecto.
 - **3 semanas**: Completar EDA, ETL y carga de datos en Python.
 - **Entre semana 2 y 4**: Creación de la base de datos.
 - **Antes de semana 4**: Conectar Power BI con la base de datos.

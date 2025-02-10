@@ -1,72 +1,59 @@
-# Análisis del Sector y Desarrollo de Algoritmos
+# Presentación Proyecto Grupal Henry Data Science Grupo 03 
 
-## Introducción
-Para definir el entendimiento de la situación actual, trabajamos sobre el enunciado, el cual nos dice que la empresa está requiriendo un análisis del sector en base a información que nos brinda de 2 fuentes. Debemos poder analizar estas fuentes para generar un algoritmo que le permita obtener las recomendaciones que está solicitando.
+## **<u> Comprensión de la situación actual </u>**:
 
-## Objetivos
-1. **Análisis de Sentimiento**: Identificar los establecimientos que van a estar en una mejor posición respecto al sentimiento de los usuarios.
-2. **Predicción de la Demanda**: Determinar cómo se va a estar moviendo la demanda a corto plazo.
-3. **Desarrollo de Algoritmos**: Crear un algoritmo capaz de realizar recomendaciones y predecir los centros de mayor demanda.
-4. **Redes Neuronales**: Identificar el sentimiento de los usuarios respecto a los establecimientos visitados, utilizando sus reseñas en lenguaje natural.
+### **Contexto** 
+En la era digital, la percepción y reputación de los negocios dependen en gran medida de las reseñas y calificaciones de los usuarios. Esto es especialmente relevante para la industria de servicios de restaurantes donde influye directamente en la toma de decisiones de nuevos consumidores y potencialmente en la rentabilidad de los negocios.
+Para una empresa con un capital significativo interesada en invertir en el mercado estadounidense por motivos estratégicos que no nos ha querido revelar, nos ha indicado que relevemos y analicemos la situación de la industria en el país, para proveerle posibles puntos estratégicos de inversión, que logremos entender el sentimiento de las personas respecto a estos locales  y que en definitiva, brindemos a los usuarios un sistema de recomendación que se retroalimente de sus reseñas en línea.
 
-## Alcance del Proyecto
-El alcance del proyecto se va a limitar a utilizar los data sets brindados y cruzar la información con data sets que vamos a extraer desde páginas web utilizando web scraping. Para ello, utilizaremos Python como herramienta principal de programación y complementaremos los análisis utilizando MySQL Workbench y Microsoft Power BI.
+### **Análisis** 
+Nos enfocamos en utilizar datos de la macroeconomía para conocer los Estados más relevantes y, una vez obtenidos, comenzar con los análisis respectivos de los restaurantes y consumidores respecto a estos.
+*	Identificar estados con potencial en base a factores económicos y demográficos.
+*	Medir la valoración general de la industria de restaurantes en los Estados objetivo a través del análisis de sentimientos.
+*	Desarrollar un sistema de recomendación que ayude a los restaurantes a mejorar su servicio y atraer clientes mediante retroalimentación.
 
-### Metodología
-1. **Análisis Exploratorio de Datos (EDA)**: Realizaremos un análisis exploratorio de datos para entender la conformación de los datos disponibles.
-2. **Transformaciones de Datos**: Procederemos a realizar transformaciones necesarias para alimentar los algoritmos.
-3. **Data Warehouse**: Crearemos un data warehouse en MySQL Workbench o en la nube, si es posible, para guardar la información de forma estructurada.
-4. **Carga de Datos**: Cargaremos la información en el data warehouse y comprobamos su funcionalidad.
-5. **Conexión Power BI y MySQL**: Haremos la conexión entre Power BI y MySQL para alimentar el dashboard.
+### **Posibles Soluciones**
+Para abordar esta problemática, el proyecto se desarrollará en varias fases, permitirá a la empresa contratante tomar decisiones informadas sobre la industria de restaurantes en EE.UU., asegurando una estrategia basada en datos confiables. La combinación de análisis de sentimientos, predicción de tendencias y optimización geográfica garantizará un impacto positivo en la industria y el crecimiento del negocio en mercados clave.
 
-## KPI Propuestos
-1. Proporción de hoteles con reseñas positivas.
-2. Cantidad de hoteles en la zona.
-3. Cantidad de reseñas en hoteles.
 
-## División del Trabajo
-Nuestra metodología incluye la división del trabajo en 3 segmentos:
-1. Documentación e investigación.
-2. Data analytics.
-3. Machine Learning e ingeniería de datos.
+## **<u>Objetivos</u>**:
 
-### Cronograma
-- **Semana 1**: Documentación e investigación.
-- **Semana 2**: Inicio de data analytics.
-- **Semana 1 a Semana 4**: Desarrollo de Machine Learning e ingeniería de datos, con el algoritmo en producción en la última semana.
+1.	Recolectar y almacenar datos: Se consolidará información de Google Maps, Yelp y fuentes macroeconómicas públicas de EE.UU. Se explorarán bases de datos como data.gov y Bureau of Labor Statistics para obtener información sobre ingresos estatales, empleabilidad y tendencias económicas.
+2.	Analizar de forma Exploratoria los Datos (EDA): Se evaluará la calidad y estructura de los datos para detectar patrones relevantes. Se incluirá información sobre los tipos de empleados en la industria de restaurantes, lo que permitirá generar insights adicionales sobre el mercado laboral.
+3.	Identificar estados más apropiados para invertir: Se analizarán variables como población, ingresos y comportamiento del consumidor para reducir la selección a 5 estados clave. 
+4.	Crear un dashboard interactivo: para visualizar los resultados de análisis y predicciones que faciliten la toma de decisiones, incluyendo KPIs para medir el rendimiento del local y de la industria.
+5.	Desarrollar un sistema de recomendación: entrenar un modelo de Machine Learning para predecir tendencias de los clientes y conocer los atributos más demandados por los consumidores
 
-## Flujo de Trabajo
-El flujo de trabajo implicará:
-1. División de trabajo.
-2. Puesta en común de la metodología de trabajo.
-3. Definición de roles y fechas de entrega.
-4. Definición de KPI.
-5. Creación del diagrama de flujo de Gantt.
-6. Realización del EDA.
-7. Creación del data warehouse en MySQL Workbench.
-8. Realización del ETL en Python.
-9. Conexión de Python con el data warehouse.
-10. Creación de la conexión web scraping desde Python.
-11. Desarrollo del algoritmo de análisis de sentimiento.
-12. Establecimiento de la demanda futura prevista.
-13. Creación del algoritmo de recomendaciones.
-14. Realización de la conexión y carga de datos en Power BI.
-15. Desarrollo del tablero de mando.
+## **<u> Alcance</u>**
+El proyecto se desarrollará sobre la información provista de Google Maps y YELD, a la cual se sumarán datos Macroeconómicos de acceso público de los Estados Unidos para evaluar variables como Población, Ingresos, Rangos Etarios, Situación Laboral, que permitirán escoger los estados con mejores perspectivas y/o tendencias para llevar a cabo una inversión en el rubro de servicios de restaurante. Una vez escogidos los 5 mejores estados, se procederá a utilizar la información base para su EDA correspondiente. Consideramos importante utilizar la mayor cantidad de información disponible para que nuestro análisis tenga fundamentos sólidos.
+Finalizado el EDA, podremos avanzar hacia la confección de un Dashboard con el estado elegido como el mejor para formalizar la inversión, a su vez se implementará la conexión con el DW alojado en Google Cloud Storage y la posible automatización del proceso incremental de carga de datos .
+Lograda la implementación del DW y el proceso de automatización, se conectará el Dashboard para que extraiga los datos y dar por finalizado el proceso ETL.
+El algoritmo se entrenará con una porción de los datos del estado seleccionado y se compararán sus resultados con el grupo de control para conocer si su resultado es deseado.
+Consideramos que podría utilizarse mayor cantidad de datos para entrenar el algoritmo, pero que esto nos demandaría demasiado tiempo, recursos y quizá dinero para lograr un despliegue más rápido en la nube.
+El alcance podría ser mayor si se considerarán los datos relativos a las ubicaciones puntuales dentro de cada Estado, intentaremos definir áreas geográficas específicas mediante el Dashboard.
 
-## Cronograma Estimado
-- **1 semana**: Documentación e inicio del proyecto.
-- **3 semanas**: Completar EDA, ETL y carga de datos en Python.
-- **Entre semana 2 y 4**: Creación de la base de datos.
-- **Antes de semana 4**: Conectar Power BI con la base de datos.
-- **Semana 4**: Presentar el algoritmo en producción.
+## **<u>Objetivos y KPIs asociados </u>**
 
-## Stack Tecnológico
-- **Lenguajes y Herramientas**:
-  - Python
-  - MySQL Workbench
-  - Power BI
+*	**Cantidad de Restaurantes con Reseñas Positivas (+50%)**
+Cantidad de Reseñas positivas / Cantidad de Reseñas totales
+Permite entender si la industria está con imagen positiva o negativa
 
-## Herramientas de Machine Learning
-- **Redes Neuronales**: Utilizaremos redes neuronales tipo Transformers para el análisis de sentimientos, ya que están preentrenadas y utilizan lenguaje natural.
-- **Mapas de Calor**: Para conocer dónde se está concentrando la demanda.
-- **Desarrollo de Algoritmos de Recomendaciones**: Utilizaremos redes neuronales Transformers o SciPy, considerando la cantidad de lenguaje natural presente en las reseñas.
+*	**Cantidad de Restaurantes con Valoraciones >4 estrellas**
+Cantidad de Valoraciones >4 / Cantidad Total de Valoraciones
+Permite segmentar los mejores calificados, entender la proporción para la recomendación. (ej: hay un 10% de restaurantes puntuados con 4 o más estrellas, indicaría que hay mucho margen de mejora en el servicio)
+
+*	**Cantidad de Reseñas recibidas (promedio >1000)**
+Cantidad de Restaurantes con +1000 Reseñas / Cantidad Total de Restaurantes
+Permite conocer si los usuarios brindan retroalimentación y en cuales quizá la falta de reseñas, haga que su conocimiento sea menos ponderado.
+
+**Repositorio GitHub**: https://github.com/JamesRaynor007/ProyectoGrupalHenry
+ 
+
+## **<u>Solución propuesta</u>**
+Nuestra metodología de trabajo se basa en un trabajo de investigación de fuentes de información para elaborar análisis basados en indicadores macroeconómicos, utilizando EDA sobre los datos al tiempo que cruzamos información con las fuentes dadas. Desarrollamos un datalake en la nube para almacenar todos los datos y creamos tablas en Google Query para alimentar nuestro Dashboard.
+El algoritmo de Machine Learning se alimentará de los datos limpios y procesados que se almacenarán en el datalake, separados de los datos crudos.
+Nos organizamos en equipos de trabajo para dividir nuestra tareas.
+En ingeniería de datos Richard y Verónica, en documentación y analítica de datos Isabela y Tomás, Alejandro intentando ser un team lead para coordinar y apoyar todas las tareas de EDA, ETL y ML.
+De nuestro trabajo surgirán en una primer etapa, un EDA completo de los datos analizados, el flujo de trabajo esperado a desarrollarse a lo largo del proyecto junto con el stack tecnológico propuesto para implementar.
+En segunda instancia, produciremos un DL que almacenará los datos en Google Cloud Storage y generaremos archivos Python para correr en Google Cloud Run y llevar esos datos crudos del DL hacia Google Power Query, almacenándolos de forma estructurada. En esta etapa completaremos el proceso ETL, automatizando la carga incremental.
+Finalmente, nuestro entregable final será un Api de recomendación, para implementarse en la web y un Dashboard interactivo que se alimentará de los datos limpios y procesados de Google Query.

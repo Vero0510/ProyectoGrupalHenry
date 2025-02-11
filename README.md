@@ -34,15 +34,15 @@ El alcance podría ser mayor si se considerarán los datos relativos a las ubica
 
 ## **<u>Objetivos y KPIs asociados </u>**
 
-*	**Cantidad de Restaurantes con Reseñas Positivas (+50%)**
+*	**Cantidad de Restaurantes con Reseñas Positivas (+50%)**<br>
 Cantidad de Reseñas positivas / Cantidad de Reseñas totales<br>
 Permite entender si la industria está con imagen positiva o negativa
 
-*	**Cantidad de Restaurantes con Valoraciones >4 estrellas**
+*	**Cantidad de Restaurantes con Valoraciones >4 estrellas**<br>
 Cantidad de Valoraciones >4 / Cantidad Total de Valoraciones<br>
 Permite segmentar los mejores calificados, entender la proporción para la recomendación. (ej: hay un 10% de restaurantes puntuados con 4 o más estrellas, indicaría que hay mucho margen de mejora en el servicio)
 
-*	**Cantidad de Reseñas recibidas (promedio >1000)**
+*	**Cantidad de Reseñas recibidas (promedio >1000)**<br>
 Cantidad de Restaurantes con +1000 Reseñas / Cantidad Total de Restaurantes<br>
 Permite conocer si los usuarios brindan retroalimentación y en cuales quizá la falta de reseñas, haga que su conocimiento sea menos ponderado.
 

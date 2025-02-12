@@ -35,7 +35,7 @@ El alcance podría ser mayor si se considerarán los datos relativos a las ubica
 ## **<u>Objetivos y KPIs asociados </u>**
 
 *	**Lograr un aumento del 15% en reseñas superiores a 4 estrellas en 6 meses.**<br>
-<u> (Reseñas >4 estrellas en los últimos 6 meses - Reseñas >4 en los 6 meses previos ) </u> *100<br>
+<u>(Reseñas >4 estrellas en los últimos 6 meses - Reseñas >4 en los 6 meses previos ) </u> *100 <br>
                 Reseñas >4 en los 6 meses previos
 
 

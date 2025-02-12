@@ -35,14 +35,15 @@ El alcance podría ser mayor si se considerarán los datos relativos a las ubica
 ## **<u>Objetivos y KPIs asociados </u>**
 
 *	**Lograr un aumento del 15% en reseñas superiores a 4 estrellas en 6 meses.**<br>
-[(Reseñas >4 estrellas en los últimos 6 meses - Reseñas >4 en los 6 meses previos ) / Reseñas >4 en los 6 meses previos ] *100 <br>
+Porcentaje Aumento Reseñas +4 Estrellas = [(Reseñas >4 estrellas en los últimos 6 meses - Reseñas >4 en los 6 meses previos ) / Reseñas >4 en los 6 meses previos ] *100 <br>
 
 
-*	**Generar un puntaje de sentimiento promedio superior o igual a 4 (en una escala de 1-5 estrellas) en los primeros 6 meses.**<br>
+*	**Aumentar 12% las reseñas positivas en los próximos 6 meses.**<br>
+Nueva Calificación Promedio = [(Reseñas Positivas Nuevas - Valor Promedio Positivo ) + (Reseñas Negativas Nuevas - Valor Promedio Negativo ) / Total de Reseñas Nuevas ]  <br>
 
 
 *	**Lograr un crecimiento mensual de reseñas del 5% al 10% en los primeros 6 meses.**<br>
-Crecimiento mensual de reseñas = ((Reseñas mes actual - Reseñas mes anterior) /  Reseñas mes anterior) × 100<br>
+Crecimiento mensual de reseñas = [(Reseñas mes actual - Reseñas mes anterior) /  Reseñas mes anterior] × 100<br>
 
 
 **Repositorio GitHub**: https://github.com/JamesRaynor007/ProyectoGrupalHenry

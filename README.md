@@ -35,7 +35,13 @@ El alcance podría ser mayor si se considerarán los datos relativos a las ubica
 ## **<u>Objetivos y KPIs asociados </u>**
 
 * **Lograr una tasa de reseñas positivas superior al promedio de la industria en el mismo estado en los primeros 6 meses.** <br>
-*  Tasa reseñas positivas = (Reseñas ≥ 4 estrellas / Total de reseñas) × 100
+  Tasa reseñas positivas = [(Reseñas ≥ 4 estrellas nuestro restaurant / Total de reseñas nuestro restaurant) /(Reseñas ≥ 4 estrellas industria / Total de reseñas industria] × 100
+
+Generar un puntaje de sentimiento promedio superior o igual a 4 (en una escala de 1-5 estrellas) en los primeros 6 meses.
+
+
+Lograr un crecimiento mensual de reseñas del 5% al 10% en los primeros 6 meses. <br>
+Crecimiento mensual de reseñas = ((Reseñas mes actual - Reseñas mes anterior) /  Reseñas mes anterior) × 100
 
 
 *	**Lograr un aumento del 15% en reseñas superiores a 4 estrellas en 6 meses.**<br>

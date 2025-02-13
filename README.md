@@ -34,6 +34,10 @@ El alcance podría ser mayor si se considerarán los datos relativos a las ubica
 
 ## **<u>Objetivos y KPIs asociados </u>**
 
+* **Lograr una tasa de reseñas positivas superior al promedio de la industria en el mismo estado en los primeros 6 meses.** <br>
+*  Tasa reseñas positivas = (Reseñas ≥ 4 estrellas / Total de reseñas) × 100
+
+
 *	**Lograr un aumento del 15% en reseñas superiores a 4 estrellas en 6 meses.**<br>
 Porcentaje Aumento Reseñas +4 Estrellas = [(Reseñas >4 estrellas en los últimos 6 meses - Reseñas >4 en los 6 meses previos ) / Reseñas >4 en los 6 meses previos ] *100 <br>
 
